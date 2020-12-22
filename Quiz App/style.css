@@ -1,0 +1,122 @@
+body {
+    background-color: #fff76a;
+}
+
+.grid {
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    background-color: #a6f6f1;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+}
+
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #ff4646;
+    font-size: 60px;
+    text-align: center;
+    color: #ffd66b;
+    padding: 2px 0px;
+    border-radius: 20%;
+}
+
+#score {
+    color: #03506f;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #0e49b5;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0 {
+    background-color: #16697a;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn1 {
+    background-color: #db6400;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn2 {
+    background-color: #ffa62b;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #682c0e;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn3 {
+    background-color: #f8f1f1;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #682c0e;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn0:hover {
+    cursor: pointer;
+    background-color: #bedcfa;
+    color: #0a043c;
+}
+
+#btn1:hover {
+    cursor: pointer;
+    background-color: #f9e0ae;
+    color: #682c0e;
+}
+
+#btn2:hover {
+    cursor: pointer;
+    background-color: #c24914;
+    color: #f9e0ae;
+}
+
+#btn3:hover {
+    cursor: pointer;
+    background-color: #fc8621;
+    color: #222831;
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    font-weight: bold;
+    color: #03506f;
+    font-size: 20px;
+    text-align: center;
+}
